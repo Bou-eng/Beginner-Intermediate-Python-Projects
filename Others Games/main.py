@@ -44,10 +44,10 @@ else:
     print("Invalid option !\n Game over :(")
 #<-------who pays the bill--------->
 
-people = ["Mohamed Bou", "Abderrahmane MA", "Mohamed Vall", "Abdullah AS", "Mohamed Hafiz", "Abdo Boubakar"]
+people = ["********", "*******", "*******", "********", "********", "*******"]
 number_of_who_pays = random.randint(0,5)
 print(f"The person who will pay is {people[number_of_who_pays]}")
-people = ["Mohamed Bou", "Abderrahmane MA", "Mohamed Vall", "Abdullah AS", "Mohamed Hafiz", "Abdo Boubakar"]
+people = ["********", "********", "********", "*********", "*******", "********"]
 print("The one who will pay is " + random.choice(people))
 
 #<---------Rock,paper and scisors--------->
